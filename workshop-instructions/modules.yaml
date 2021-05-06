@@ -1,0 +1,20 @@
+# See https://docs.edukates.io/en/latest/workshop-content/workshop-config.html?highlight=modules#specifying-structure-of-the-content
+modules:
+  workshop-overview:
+    name: Workshop Overview
+    exit_sign: Start Workshop
+  exercises/how-tern-works.md:
+    name: Understand and Install Tern
+  exercises/generate-a-default-report.md:
+    name: Generate a Container SBoM
+  exercises/generate-an-spdx-report.md:
+    name: Generate an SPDX report
+  exercises/generating-other-formats.md:
+    name: Generate SBoMs in Other Formats using Tern
+  exercises/dockerfile-analysis.md:
+    name: Generating an SBoM from a Dockerfile
+  exercises/extension-information.md:
+    name: Incorporating extensions with Tern
+  workshop-summary:
+    name: Conclusion
+    exit_sign: Finish Workshop

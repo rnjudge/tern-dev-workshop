@@ -1,0 +1,24 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: tern-dev-workshop
+spec:
+  vendor: eduk8s.io
+  title: Generating a Software Bill of Materials using Tern
+  description: An interactive workshop on creating Software Bill of Materials using Tern
+  tags:
+  - containers
+  content:
+    files: github.com/rnjudge/tern-dev-workshop
+  duration: 60m
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      registry:
+        enabled: true
+      docker:
+        enabled: true

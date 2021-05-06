@@ -1,0 +1,1 @@
+In this workshop we covered a handful of topics including how to install Tern, how to run Tern, and how to understand the SBoM documents that Tern generates. For questions, comments and more up-to-date information about the project, visit [Tern's GitHub page](https://github.com/tern-tools/tern).
