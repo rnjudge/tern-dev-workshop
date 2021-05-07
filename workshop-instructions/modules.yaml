@@ -2,9 +2,10 @@
 modules:
   workshop-overview:
     name: Workshop Overview
-    exit_sign: Start Workshop
-  exercises/how-tern-works.md:
+    exit_sign: Setup Environment
+  setup-environment:
     name: Understand and Install Tern
+    exit_sign: Start Workshop
   exercises/generate-a-default-report.md:
     name: Generate a Container SBoM
   exercises/generate-an-spdx-report.md:

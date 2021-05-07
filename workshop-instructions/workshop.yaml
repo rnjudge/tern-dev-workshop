@@ -3,7 +3,7 @@ name: Generating a Software Bill of Materials using Tern
 modules:
     activate:
     - workshop-overview
-    - exercises/how-tern-works
+    - setup-environment
     - exercises/generate-a-default-report
     - exercises/generate-an-spdx-report.md
     - exercises/generating-other-formats.md
