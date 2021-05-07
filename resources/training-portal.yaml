@@ -1,0 +1,13 @@
+apiVersion: training.eduk8s.io/v1alpha1
+kind: TrainingPortal
+metadata:
+  name: tern-dev-workshop
+spec:
+  portal:
+    registration:
+      type: anonymous
+  workshops:
+  - name: tern-dev-workshop 
+    capacity: 1
+    expires: 60m
+    orphaned: 10m

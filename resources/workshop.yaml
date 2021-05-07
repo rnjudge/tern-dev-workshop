@@ -6,18 +6,23 @@ spec:
   vendor: eduk8s.io
   title: Generating a Software Bill of Materials using Tern
   description: An interactive workshop on creating Software Bill of Materials using Tern
+  difficulty: beginner
   tags:
   - containers
   content:
     files: github.com/rnjudge/tern-dev-workshop
-  duration: 60m
+  duration: 30m
   session:
     namespaces:
-      budget: medium
+      budget: small
     applications:
       terminal:
         enabled: true
         layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
       registry:
         enabled: true
       docker:
