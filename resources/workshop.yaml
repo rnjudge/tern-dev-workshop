@@ -10,7 +10,7 @@ spec:
   tags:
   - containers
   content:
-    files: github.com/rnjudge/tern-dev-workshop
+    image: brianmmcclain/tern-dev-workshop:latest
   duration: 30m
   session:
     namespaces:
