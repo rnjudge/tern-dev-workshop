@@ -5,8 +5,8 @@ modules:
     - workshop-overview
     - setup-environment
     - exercises/generate-a-default-report
-    - exercises/generate-an-spdx-report.md
-    - exercises/generating-other-formats.md
-    - exercises/dockerfile-analysis.md
-    - exercises/extension-information.md
+    - exercises/generate-an-spdx-report
+    - exercises/generating-other-formats
+    - exercises/dockerfile-analysis
+    - exercises/extension-information
     - workshop-summary

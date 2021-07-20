@@ -8,6 +8,6 @@ spec:
       type: anonymous
   workshops:
   - name: tern-dev-workshop 
-    capacity: 1
+    capacity: 3
     expires: 60m
     orphaned: 10m

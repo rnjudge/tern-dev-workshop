@@ -14,19 +14,18 @@ $ vi output.txt
 
 Specifically, look for:
 a) Information about the Base OS
-b) The list of packages in the layer as well as their associated versions and licenses.
-c) The summary of licenses found in the container
-d) The method of retrieval for the gathered package metadata. This will tell you the package manager that Tern used to collect the package information. You can view the specific commands/scripts used for each package manager on [GitHub](https://github.com/tern-tools/tern/blob/main/tern/analyze/default/command_lib/base.yml).
+b) The list of packages in the layer as well as their associated versions, licenses, and package types. The pacakge type will also tell you about the type of package manager used to collect the package metadata. You can also view the specific commands/scripts used for each package manager on [GitHub](https://github.com/tern-tools/tern/blob/main/tern/analyze/default/command_lib/base.yml).
+c) The summary of licenses found in the container.
 
 The `photon:3.0` image is based on VMware's minimalist operating system specifically optimized for cloud native applications. Becuase it is designed to be small, there is only one layer in the container with a minimal package set. To get a better sense of what an SBoM looks like with a larger container, run Tern on a larger image.
 
-```
+```execute
 $ tern report -i golang:latest -o golang.txt
 ```
 
 Look at the report generated in `golang.txt`.
 
-```
+```execute
 $ vi golang.txt
 ```
 
