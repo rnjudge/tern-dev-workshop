@@ -6,15 +6,15 @@ modules:
   setup-environment:
     name: Understand and Install Tern
     exit_sign: Start Workshop
-  exercises/generate-a-default-report.md:
+  exercises/generate-a-default-report:
     name: Generate a Container SBoM
-  exercises/generate-an-spdx-report.md:
+  exercises/generate-an-spdx-report:
     name: Generate an SPDX report
-  exercises/generating-other-formats.md:
+  exercises/generating-other-formats:
     name: Generate SBoMs in Other Formats using Tern
-  exercises/dockerfile-analysis.md:
+  exercises/dockerfile-analysis:
     name: Generating an SBoM from a Dockerfile
-  exercises/extension-information.md:
+  exercises/extension-information:
     name: Incorporating extensions with Tern
   workshop-summary:
     name: Conclusion
